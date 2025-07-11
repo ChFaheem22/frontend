@@ -25,7 +25,7 @@ const Home = () => {
 
       {/* Services Section */}
       <section className="container">
-        <div className="text-center mb-4">
+        <div className="text-center mb-4a">
           <h2>Our Services</h2>
           <p>Choose from a variety of professional services</p>
         </div>

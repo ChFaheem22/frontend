@@ -54,10 +54,6 @@ body {
   transition: color 0.3s;
 }
 
-.nav-links a:hover {
-  color: #2563eb;
-}
-
 
 /* Buttons */
 .btn {
@@ -74,14 +70,13 @@ body {
 }
 
 .btn-primary {
-  background: transparent;
+  background: #2563eb;
   color: white;
-  border: 2px solid black;
 }
 
 .btn-primary:hover {
-  color: white;
   background: black;
+  color: white;
 }
 
 .btn-secondary {
@@ -100,8 +95,8 @@ body {
 }
 
 .btn-outline:hover {
-  color: white;
   background: #2563eb;
+  color: white;
 }
 
 .btn-outline1 {
@@ -114,6 +109,18 @@ body {
   background: white;
   color: #2563eb;
 }
+
+.btn-outline2 {
+  color: white;
+  background: transparent;
+  border: 2px solid #2563eb;
+}
+
+.btn-outline2:hover {
+  color: white;
+  background: #2563eb;
+}
+
 
 /* Hero Section */
 .hero {
@@ -357,7 +364,7 @@ body {
 .mb-3 { margin-bottom: 1.5rem; }
 .mb-4 { margin-bottom: 2rem; }
 .mb-4a { margin-bottom: 2rem;
-margin-top: 30px; }
+margin-top: 20px; }
 
 .mt-1 { margin-top: 0.5rem; }
 .mt-2 { margin-top: 1rem; }
